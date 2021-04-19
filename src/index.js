@@ -13,8 +13,10 @@ logger.log(`create foo: ${JSON.stringify(foo)}`);
 const fooGa = {
   ...foo,
   field4: 3,
+  
 };
-
 logger.log(`create fooGa: ${JSON.stringify(fooGa)}`);
 
 console.dir(logger.getLogs());
+
+// $('.test').text('Hello');
